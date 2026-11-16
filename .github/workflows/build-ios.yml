@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: GopeedLab/gopeed
-          ref: v1.9.3
+                    ref: be0a395447d788419e83acdfd693e48a1a1706bf
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24'
